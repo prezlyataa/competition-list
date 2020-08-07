@@ -6,14 +6,11 @@
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
-    "heroku-postbuild": "npm install && npm run build"
+    "heroku-postbuild": "yarn install && yarn build"
   },
   "repository": {
     "type": "git",
     "url": ""
-  },
-  "engines": {
-    "node": "12.x"
   },
   "author": "",
   "license": "ISC",
